@@ -1,0 +1,93 @@
+h1 {
+	color : rgb(255, 255, 255);
+}
+
+body {
+	background-color: rgb(71, 71, 71);
+}
+
+h2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .1em;
+	text-align: center;
+	
+}
+
+.textbox {
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main .textbox {
+	display: block;
+    width: 300px;
+	height: 300px;
+	padding: 4px 4px;
+	margin:auto;
+    z-index: 5;
+    color: #fff;
+    background: #343434;
+    font-size: 13px
+}
+
+.textbox0 {
+	display: block;
+    width: 300px;
+	height: 300px;
+	padding: 4px 4px;
+	margin:auto;
+    z-index: 5;
+    color: #fff;
+    background: #343434;
+    font-size: 13px;
+	float: left;
+}
+
+.ref-up {
+	background: url(https://i.imgur.com/vhrdSDC.png);
+	width: 52px;
+	height: 52px;
+	margin: auto;
+	padding:2px;
+	float:left;
+}
+
+.ref-up.up1 {
+	background-position: 0px 0;
+}
+
+.ref-up.up2 {
+	background-position: -56px 0;
+}
+
+.item-title {
+	display: none;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	font-size: 16px;
+	margin: 10px 0 0;
+	color : black;
+}
+
+.desc {
+	display: none;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	font-size: 16px;
+	margin: 10px 0 0;
+	color : rgb(255, 196, 0);
+}
+
+.up1:hover + .item-title {
+	display: block;
+	color: rgb(255, 0, 0);
+}
+.up2:hover + .desc {
+	display: block;
+	color: black;
+}
